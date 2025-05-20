@@ -26,11 +26,9 @@ const Index = () => {
               Minh Tâm is
               <TypeAnimation
                 sequence={[
-                  "Web Designer",
+                  "Designer",
                   1000,
-                  "FrontEnd Dev",
-                  1000,
-                  "FullStack Dev",
+                  "FrontEnd",
                   1000,
                 ]}
                 wrapper="span"
