@@ -1,6 +1,7 @@
 import { projects } from '@/types';
 import { useState, useEffect } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const mockProjects: projects[] = [
     {
         id: 1,
@@ -53,7 +54,7 @@ export function useProjectData() {
     const [projectData, setProjectData] = useState<projects[]>([]);
 
     useEffect(() => {
-        setProjectData(mockProjects);
+        setProjectData([]);
     }, []);
 
     return projectData;

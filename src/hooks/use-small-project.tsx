@@ -1,6 +1,7 @@
 import { small_projects } from "@/types/work";
 import { useEffect, useState } from "react";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const mockProjects: small_projects[] = [
   {
     id: 1,
@@ -104,10 +105,12 @@ const mockProjects: small_projects[] = [
 ];
 
 export function useSmallProjectData() {
-  const [smallProjectData, setSmallProjectData] = useState<small_projects[]>([]);
+  const [smallProjectData, setSmallProjectData] = useState<small_projects[]>(
+    []
+  );
 
   useEffect(() => {
-    setSmallProjectData(mockProjects);
+    setSmallProjectData([]);
   }, []);
 
   return smallProjectData;

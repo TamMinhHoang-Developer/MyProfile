@@ -66,7 +66,7 @@ const Contacts = () => {
             </div>
             <div className="gap-1.5 flex items-center">
               <SiGithub size={20} />
-              <span>tam.hoang.developer</span>
+              <a href="https://github.com/TamMinhHoang-Developer" target="_blank">tam.hoang.developer</a>
             </div>
           </div>
         </WidgetAOS>

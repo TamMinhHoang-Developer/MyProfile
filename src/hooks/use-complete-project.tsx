@@ -1,6 +1,7 @@
 import { projects } from "@/types";
 import { useState, useEffect } from "react";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const mockCompleteProjects: projects[] = [
   {
     id: 1,
@@ -89,7 +90,7 @@ export function useCompleteProjectData() {
   );
 
   useEffect(() => {
-    setCompleteProjectData(mockCompleteProjects);
+    setCompleteProjectData([]);
   }, []);
 
   return completeProjectData;
