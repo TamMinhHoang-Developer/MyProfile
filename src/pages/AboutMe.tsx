@@ -193,11 +193,6 @@ const AboutMe = () => {
                 <span className="text-white">pasta</span>
               </div>
               <div className="text-cadet-blue border-2 border-cadet-blue p-2">
-                I was in <span className="text-white">Egypt</span>,{" "}
-                <span className="text-white">Poland</span> and{" "}
-                <span className="text-white">Turkey</span>
-              </div>
-              <div className="text-cadet-blue border-2 border-cadet-blue p-2">
                 My favorite movie is{" "}
                 <span className="text-white">The Green Mile</span>
               </div>

@@ -494,10 +494,10 @@ const Index = () => {
             <div className="mt-6 flex flex-col md:flex-row gap-14 items-center">
               <div className="flex-1">
                 <div className="text-cadet-blue">
-                  Hello, i’m Elias!
+                  Hello, i’m Minh Tam!
                   <br />
                   <br />
-                  I’m a self-taught front-end developer based in Kyiv, Ukraine.
+                  I’m a self-taught front-end developer based in Nha Trang, Viet Nam.
                   I can develop responsive websites from scratch and raise them
                   into modern user-friendly web experiences.
                   <br />

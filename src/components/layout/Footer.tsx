@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='mt-12 text-center text-cadet-blue text-base'>© Copyright 2025. Made by Elias</div>
+            <div className='mt-12 text-center text-cadet-blue text-base'>© Copyright 2025. Made by MTam</div>
         </div>
     );
 }
