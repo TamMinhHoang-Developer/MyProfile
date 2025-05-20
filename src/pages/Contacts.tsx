@@ -59,8 +59,8 @@ const Contacts = () => {
             <span className="text-turquoise">#</span>
             <h3>all-media</h3>
           </div>
-          <div className="flex gap-6 mt-6">
-            <div className="gap-1.5 flex items-center">
+          <div className="flex gap-6 mt-6 md:flex-row flex-col">
+            <div className="gap-1.5 flex items-center ">
               <SiTwitch size={20} />
               <span>tam.hoang.developer</span>
             </div>
